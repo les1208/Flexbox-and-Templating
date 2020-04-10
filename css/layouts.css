@@ -1,8 +1,7 @@
 h1 {
 	font-family: 'Amatic SC', cursive;
-	font-size: 100px;
-	text-align: center;
-	margin: auto;
+	padding: 30px;
+  font-size: 100px;
 	}
 
 	header {
@@ -21,26 +20,46 @@ h1 {
 		justify-content: space-around;
 	}
 
+	div {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	main {
+		display: flex;
+		flex-direction: row;
+		justify-items: center;
+		flex-wrap: wrap;
+	}
+
 	section {
 		font-family: 'Amatic SC', cursive;
 		text-align: center;
-		font-size: 25px;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		flex-flow: column wrap;
-		align-content: center;
+		width: 270px;
+		margin: 25px;
+		padding: 15px;
 	}
-		
+
+	select  {
+		font-size: 30px;
+		border: 3px solid gray;
+		font-family: 'Amatic SC', cursive;
+		justify-items: auto;
+
+	}
+	
 
 	img {
-		border: ridge 2px;
+		border: ridge 4px;
 		width: 260px;
 		max-height: 300px;
 	}
 
 	footer {
+		clear: both;
+		height: 150px;
 		text-align: center;
-		height: 30px;
-		padding-top: 150px;
+		line-height: 150px;
 	}
